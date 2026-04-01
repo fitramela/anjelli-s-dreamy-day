@@ -25,6 +25,7 @@ const Index = () => {
             key="hero"
             exit={{ opacity: 0, y: -50 }}
             transition={{ duration: 0.6 }}
+            className="relative z-10"
           >
             <HeroSection onStart={() => setStarted(true)} />
           </motion.div>
@@ -34,6 +35,7 @@ const Index = () => {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 0.8 }}
+            className="relative z-10"
           >
             <FloatingHearts />
             <FloatingLotso />
