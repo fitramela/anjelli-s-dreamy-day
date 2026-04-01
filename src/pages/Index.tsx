@@ -4,8 +4,10 @@ import HeroSection from "@/components/HeroSection";
 import MessageSection from "@/components/MessageSection";
 import TimelineSection from "@/components/TimelineSection";
 import CuteZone from "@/components/CuteZone";
+import PhotoGallery from "@/components/PhotoGallery";
 import ClosingSection from "@/components/ClosingSection";
 import FloatingHearts from "@/components/FloatingHearts";
+import FloatingLotso from "@/components/FloatingLotso";
 import Sparkles from "@/components/Sparkles";
 import MusicPlayer from "@/components/MusicPlayer";
 
@@ -34,8 +36,10 @@ const Index = () => {
             transition={{ duration: 0.8 }}
           >
             <FloatingHearts />
+            <FloatingLotso />
             <MessageSection />
             <TimelineSection />
+            <PhotoGallery />
             <CuteZone />
             <ClosingSection />
           </motion.div>
