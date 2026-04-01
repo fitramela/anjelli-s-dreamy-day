@@ -121,6 +121,12 @@
 .animate-glow { animation: glow-pulse 2s ease-in-out infinite; }
 .animate-dash { animation: dash-move 3s linear infinite; }
 .animate-bounce-soft { animation: bounce-soft 2s ease-in-out infinite; }
+.animate-music-pulse { animation: music-pulse 1.5s ease-in-out infinite; }
+
+@keyframes music-pulse {
+  0%, 100% { transform: scale(1); box-shadow: 0 0 15px hsl(330 60% 65% / 0.3); }
+  50% { transform: scale(1.12); box-shadow: 0 0 30px hsl(330 60% 65% / 0.6); }
+}
 
 .text-glow {
   text-shadow: 0 0 15px hsl(330 60% 65% / 0.4), 0 0 30px hsl(330 60% 65% / 0.15);
