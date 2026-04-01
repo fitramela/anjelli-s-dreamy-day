@@ -25,7 +25,7 @@ const MusicPlayer = () => {
       <audio
         ref={audioRef}
         loop
-        src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"
+        src="https://cdn.pixabay.com/audio/2024/11/04/audio_a388bba334.mp3"
       />
       <button
         onClick={toggle}
